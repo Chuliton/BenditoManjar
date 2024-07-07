@@ -1,0 +1,186 @@
+.menu {
+    display: none;
+    font-family: system-ui;
+    
+  }
+  .desc img{
+    width: 300px;
+    height: 310px;
+  }
+  header {
+    text-align: center;
+    font-family: system-ui
+  }
+  
+  .imagenes-vectores {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .vector {
+    width: 100px; 
+    height: 100px;
+    margin: 25px; 
+    cursor: pointer;
+  }
+
+    .desc {
+        width: 100%; /* Ancho completo */
+            border-collapse: separate; /* Separar bordes de celda */
+            border-spacing: 20px; /* Espaciado entre celdas */
+        }
+   
+        td {
+            border: 1px solid #ccc; 
+            padding: 20px; /* Espaciado interno de la celda */
+            text-align: center; /* Alineación del contenido al centro */
+        }
+
+        /*Para la bandera italiana del fondo*/
+        .desc {
+            width: 100%; /* Ancho completo */
+            border-collapse: collapse; /* Combinar bordes de celda */
+          }
+          /* Estilo para las celdas de la tabla */
+          td {
+            padding: 10px; /* Espaciado interno de la celda */
+            text-align: center; /* Alineación del contenido al centro */
+          }
+          /* Estilo para la celda verde */
+          .verde {
+            background-color: #009246; /* Verde */
+            color: #FFFFFF; /* Texto blanco */
+          }
+     
+          .blanco {
+            background-color: #FFFFFF; 
+            color: #000000; /* Texto negro */
+          }
+        
+          .rojo {
+            background-color: #CE2B37; 
+            color: #FFFFFF; /* Texto blanco */
+          }
+
+          menu-bebida ul, menu-lomito ul, menu-acompañamiento ul {
+            list-style: none; /* Quita los puntos de la lista */
+            padding: 0;
+          }
+      
+          /* Estilo para cada elemento de la lista */
+          menu-bebida li, menu-lomito li, menu-acompañamiento li {
+            display: flex; 
+            justify-content: space-between; /* Separa el texto y el precio */
+            align-items: center; /* Centra verticalmente */
+            margin-bottom: 10px; /* Espacio entre elementos de la lista */
+          }
+      
+     
+          hr {
+            flex-grow: 1; 
+            border: none;
+            height: 3px;
+            background-color: red;
+            margin-left: 10px; 
+          }
+            
+          MARQUEE{
+
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: #ffffff;
+
+          }
+          .caja{
+            position: relative;
+          }
+        .ingre{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 56px;
+            right: 56px;
+            height: 92.5%;
+            width: 69.5;
+            padding: 10px;
+            background-color: rgb(0, 0, 0,0.2);
+            opacity: 0;
+            transition: opacity 0.3 ease;
+            display: flex;
+            
+        }
+        .ingre .texto{
+          text-align: center;
+          color:white;
+          padding: 50px 30px 10px 60px;
+          font-weight: bold;
+        }
+        .ingre li{
+          list-style: none;
+        }
+        .caja:hover .ingre{
+            opacity: 1;
+        }
+        
+        .caja2{
+          position: relative;
+        }
+      .ingre2{
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 2px;
+          right: 5px;
+          height: 92.5%;
+          width: 92%;
+          padding: 10px;
+          background-color: rgb(0, 0, 0,0.2);
+          opacity: 0;
+          transition: opacity 0.3 ease;
+          display: flex;
+          
+      }
+      .ingre2 .texto2{
+        text-align: center;
+        color:white;
+        padding: 100px 20px 10px 70px;
+        font-weight: bold;
+
+      }
+      .ingre2 li{
+        list-style: none;
+      }
+      .caja2:hover .ingre2{
+          opacity: 1;
+      }
+      .caja3{
+        position: relative;
+      }
+    .ingre3{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 25.5vh;
+        right: 25vh;
+        height: 92.5%;
+        width: 44.5%;
+        padding: 10px;
+        background-color: rgb(0, 0, 0,0.2);
+        opacity: 0;
+        transition: opacity 0.3 ease;
+        display: flex;
+        
+    }
+    .ingre3 .texto3{
+      text-align: center;
+      color:white;
+      padding: 40px 0px 10px 30px;
+      font-weight: bold;
+
+    }
+    .ingre3 li{
+      list-style: none;
+    }
+    .caja3:hover .ingre3{
+        opacity: 1;
+    }
+          

@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Menú- Bendito Manjar</title>
+  <link rel="stylesheet" href="../Css/css_menu.css">
+  <link rel="stylesheet" href="../Css/tabla.css">
+</head>
+<body bgcolor="FCF4D0">
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav class="MENUNAV">
+          <!-- <div class="logo"><img src="../Imagenes/logolindo.png"></div>  -->
+          <ul class="menu-horizontal">
+              <li class="imagenNav"><img src="../Imagenes/logolindo.png" class="logoimagen"></li>
+              <li class="itemNav"><a href="../index.html">Inicio</a></li>
+              <li class="itemNav">
+                  <a href="#">Viandas</a>
+                  <ul class="menu-vertical">
+                      <li><a href="../Html/menu.html">Menu</a></li>
+                      <li><a href="../Html/combos.html">Combos</a></li>
+                  </ul>
+              </li>  
+              <li class="itemNav"><a href="../Html/galeriadeimagenes.html">Galeria de Imagenes</a></li>
+              <li>&nbsp</li>
+          </ul>
+      </nav>
+<header>
+  <h1>Bendito Manjar</h1>
+
+  <MARQUEE BGCOLOR = "#bf0f27"; BEHAVIOR = "alternate">Seleccione el botón correspondiente a la comida de su interés</MARQUEE >
+  <div class="imagenes-vectores">
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/pizza-food-icon.png" alt="Pizza" class="vector" onclick="mostrarMenu('pizza')">
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/burger-icon.png" alt="Hamburguesa" class="vector" onclick="mostrarMenu('hamburguesa')">
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/champagne-bottles-icon.png" alt="Bebidas" class="vector" onclick="mostrarMenu('bebida')">
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/taco-icon.png" alt="Lomitos" class="vector" onclick="mostrarMenu('lomito')">
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/french-fries-icon.png" alt="acompañamientos" class="vector" onclick="mostrarMenu('acompañamiento')">
+  </div>
+  
+</header>
+
+<div id="menu-pizza" class="menu" style="display: block;">
+<i><h2 align="center">Menú de Pizzas</h2></i>
+  <table class="desc">
+    <tr>
+         <td class="verde">
+          <div class="caja">
+          <img src="../Imagenes/img13.jpeg" alt="Pizza Muzzarela"><br>
+          <div class="ingre">
+            <div class="texto">
+          <ul>
+            <li>Queso Muzzarella</li>
+            <li>Salsa Casera</li>
+            <li>Orégano</li>
+            <li>Aceitunas</li>
+           </ul>
+        </div>
+        </div>
+      </div>
+      Muzzarella
+    </td>
+      <td class="blanco">
+        <div class="caja">
+        <img src="../Imagenes/img4.jpeg"  alt="Pizza de pepperoni"><br> 
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Orégano</li>
+              <li>Pepperoni</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      Pepperoni
+      </td>
+      <td class="rojo">
+        <div class="caja">
+        <img src="../Imagenes/img2.jpeg" alt="Pizza Margarita"><br> 
+        <div class="ingre">
+          <div class="texto">
+          <ul>
+            <li>Salsa Casera</li>
+            <li>Queso Muzzarella</li>
+            <li>Rodajas de Tomate</li>
+            <li>Hojas de Albahaca</li>
+            <li>Orégano</li>
+            <li>Aceitunas</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      Margarita
+    </td>
+    </tr>
+    <tr>
+      <td>₲23.000</td>
+      <td>₲30.000</td>
+      <td>₲27.000</td>
+    </tr>
+
+    <tr>
+      <td class="verde">
+        <div class="caja">
+          <img src="../Imagenes/choclo.png" alt="Pizza de choclo"><br> 
+          <div class="ingre">
+            <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Choclo</li>
+              <li>Orégano</li>
+              <li>Aceitunas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      Choclo
+      </td>
+      <td class="blanco">
+        <div class="caja">
+        <img src="../Imagenes/palmi.png" alt="Pizza de palmitos"><br> 
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Palmito</li>
+              <li>Orégano</li>
+              <li>Aceitunas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      Palmitos
+      </td>
+      <td class="rojo">
+        <div class="caja">       
+        <img src="../Imagenes/chori.png"  alt="Pizza de chorizo"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Chorizo</li>
+              <li>Orégano</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      Chori
+      </td>
+    </tr>
+
+
+<tr>
+      <td>₲27.000</td>
+      <td>₲30.000</td>
+      <td>₲30.000</td>
+    </tr>
+
+    <tr>
+      <td class="verde">
+        <div class="caja"> 
+        <img src="../Imagenes/napo.png" alt="Pizza Napolitana"><br> 
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Tiras de Jamon</li>
+              <li>Rodas de Tomate</li>
+              <li>Orégano</li>
+              <li>Aceitunas</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Napolitana
+      </td>
+      <br>
+      <td class="blanco">
+        <div class="caja"> 
+        <img src="../Imagenes/pance.jpg"  alt="Pizza de panceta"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Panceta</li>
+              <li>Orégano</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Panceta
+      </td>
+      <br>
+      <td class="rojo">
+        <div class="caja"> 
+        <img src="../Imagenes/katu.png"   alt="Pizza de Catupiry"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarela</li>
+              <li>Queso Catupiry</li>
+              <li>Orégano</li>
+              <li>Aceitunas</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Catupiry
+      </td>
+    </tr>
+ 
+    <tr>
+      <td>₲30.000</td>
+      <td>₲32.000</td>
+      <td>₲27.000</td>
+    </tr>
+
+
+    <tr>
+      <td class="verde">
+        <div class="caja">
+        <img src="../Imagenes/catupollo.jpeg" alt="Pizza"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Queso Catupiry</li>
+              <li>Choclo</li>
+              <li>Orégano</li>
+              <li>Aceitunas</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Catu & Choclo
+      </td>
+      <td class="blanco">
+        <div class="caja">
+        <img src="../Imagenes/katuypol.png" alt="Pizza de Catu & Pollo"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Queso Catupiry</li>
+              <li>Pollo</li>
+              <li>Orégano</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Catu & Pollo
+      </td>
+      <td class="rojo">
+        <div class="caja">
+        <img src="../Imagenes/img1.jpeg" alt="Pizza de Catu & Panceta"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Queso Catupiry</li>
+              <li>Panceta</li>
+              <li>Orégano</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Catu & Panceta
+      </td>
+    </tr>
+    
+    <tr>
+      <td>₲28.000</td>
+      <td>₲30.000</td>
+      <td>₲32.000</td>
+    </tr>
+
+    <tr>
+      <td class="verde">
+        <div class="caja">
+        <img src="../Imagenes/img5.jpeg" alt="Pizza Mexicana"><br> 
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Cebolla Salteada</li>
+              <li>Trocitos de Jamon</li>
+              <li>Choclo</li>
+              <li>Morron Salteado</li>
+              <li>Orégano</li>
+              <li>Picante</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Mexicana
+      </td>
+      <br>
+      <td class="blanco">
+        <div class="caja">
+        <img src="../Imagenes/cebo.jpg" alt="Pizza de cebolla"><br> 
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Cebolla Salteada</li>
+              <li>Orégano</li>
+              <li>Aceitunas</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Cebolla
+      </td>
+      <td class="rojo">
+        <div class="caja">
+        <img src="../Imagenes/ceboypan.png"  alt="Pizza de choclo & Panceta"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Salsa Casera</li>
+              <li>Queso Muzzarella</li>
+              <li>Cebolla Salteada</li>
+              <li>Panceta Salteada</li>
+              <li>Orégano</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Cebolla & Panceta
+      </td>
+    </tr>
+
+    <tr>
+      <td>₲30.000</td>
+      <td>₲27.000</td>
+      <td>₲33.000</td>
+    </tr>
+    
+    
+  </table>
+</div>
+
+
+
+
+
+<div id="menu-hamburguesa" class="menu">
+  <i><h2 align="center">Menú de Hamburguesas</h2></i>
+  <br>
+ <table class="desc">
+  <tr>
+    <td class="verde">
+      <div class="caja2">
+      <img src="../Imagenes/comple.png" alt="Hamburguesa con Papas"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li>Hamburguesa Casera</li>
+            <li>Lechuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Huevo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    Completa
+    </td>
+    <br>
+    <td class="blanco">
+      <div class="caja2">
+      <img src="../Imagenes/compleypance.png"  alt="Hamburguesa con Papas"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li>Hamburguesa Casera</li>
+            <li>Lechuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Huevo</li>
+            <li>Panceta</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    Panceta
+    </td>
+    <br>
+    <td class="rojo">
+      <div class="caja2">
+      <img src="../Imagenes/img14.jpeg" alt="Hamburguesa con Papas"><br> 
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li>2 Hamburguesas Caseras</li>
+            <li>Lechuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Huevo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    Hamburguesa Completa Doble
+     </td>
+     <br>
+    <td class="blanco">
+      <div class="caja2">
+      <img src="../Imagenes/doblepance.png"  alt="Hamburguesa con Papas"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li>2 Hamburguesas Caseras</li>
+            <li>Lechuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Huevo</li>
+            <li>Panceta</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    Completa Doble + Panceta
+    </td>
+  </tr>
+
+<tr>
+    <td>₲12.000</td>
+    <td>₲14.000</td>
+    <td>₲17.000</td>
+    <td>₲19.000</td>
+  </tr>
+ </table>
+
+</div>
+
+<div id="menu-bebida" class="menu">
+  <i><h2 align=" center">Bebidas</h2></i>
+  <table class="desc">
+    <tr>
+      <td class="verde"><img src="../Imagenes/coca_500_sinf.png" alt="Gaseosas 500ml"><br>Gaseosas 500 ml</td>
+      <td class="blanco"><img src="../Imagenes/coca_1l_sinf.png" alt="Gaseosas 1l"><br>Gaseosa 1L</td>
+      <td class="rojo"><img src="../Imagenes/coca_250.png"style="width: 320px; height: 300px;"  alt="Gaseosas 250 mL"><br>Gaseosas 250 ml </td>
+  
+    </tr>
+    <tr>
+      <td>₲6.500</td>
+      <td>₲8.000</td>
+      <td>₲3.000</td>
+    </tr>
+
+    <tr>
+      <td class="verde"><img src="../Imagenes/descartable_1l_sinf.png"   alt="Gaseosas 1L Descartable"><br>Gaseosa 1L Descartable</td>
+      <td class="blanco"><img src="../Imagenes/frugps.jpg"  alt="Jugo 200 ml"><br>Jugo 200 ml</td>
+      <td class="rojo"><img src="../Imagenes/frugos_1l_sinf.png" alt="Jugo 1 Litro"><br>Jugo 1 Litro</td>
+  
+    </tr>
+
+    <tr>
+      <td>₲10.000</td>
+      <td>₲4.000</td>
+      <td>₲10.000</td>
+    </tr>
+
+
+    <tr>
+      <td class="verde"><img src="../Imagenes/aguatonica_sinf.png"  alt="Agua Tónica"><br>Agua Tónica 500ml</td>
+      <td class="blanco"><img src="../Imagenes/aguasing_benedict.jpeg"  alt="Agua sin gas (Benedictino)"><br>Agua sin gas (Benedictino)</td>
+      <td class="rojo"><img src="../Imagenes/dasani-sinf.png" alt="Agua sin Gas (Dasani)"><br>Agua sin Gas (Dasani)</td>
+  
+    </tr>
+
+
+    <tr>
+      <td>₲6.500</td>
+      <td>₲3.000</td>
+      <td>₲3.500</td>
+    </tr>
+
+
+    <tr>
+      <td class="verde"><img src="../Imagenes/minicoca_sinf.png"  alt="Gaseosas Descartables 250ml"><br>Gaseosas Descartables 250ml</td>
+      <td class="blanco"><img src="../Imagenes/corona.jpg"style="width: 300px; height: 300px;"  alt="Cerveza Corona"><br>Cerveza Corona</td>
+      <td class="rojo"><img src="../Imagenes/Miller.png" style="width: 350px; height: 300px;" alt="Miller"><br>Cerveza Miller</td>
+  
+    </tr>
+
+
+
+    <tr>
+      <td>₲4.000</td>
+      <td>₲18.000</td>
+      <td>17.000</td>
+
+    </tr>
+
+
+
+
+
+
+
+  </tr>
+</table>
+
+</div>
+
+
+<div id="menu-lomito" class="menu">
+  <table class="desc">
+
+   <i><h2 align="center">Sandwitch de lomito</h2></i>
+   <tr>
+    <td class="verde">
+      <div class="caja2">
+      <img src="../Imagenes/img12.jpeg"  alt=" Sand Completo"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li>Carne de Lomito</li>
+            <li>Lecuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Huevo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      Completo
+    </td>
+    <td class="blanco">
+      <div class="caja2">
+      <img src="../Imagenes/complepance.jpg" alt="Sand Completo + Panceta"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li>Carne de Lomito</li>
+            <li>Lecuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Panceta</li>
+            <li>Huevo</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      Completo con Panceta
+    </td>
+    <td class="rojo">
+      <div class="caja2">
+      <img src="../Imagenes/doblecarne2jpg.jpg" alt="Sand Doble Carne"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li> 2 Carnes de Lomito</li>
+            <li>Lecuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Huevo</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      Doble Carne
+    </td>
+    <td class="blanco">
+      <div class="caja2">
+      <img src="../Imagenes/lomidopa.4930.jpg"  alt="Sand Doble Carne + Panceta"><br>
+      <div class="ingre2">
+        <div class="texto2">
+          <ul>
+            <li>Pan</li>
+            <li> 2 Carnes de Lomito</li>
+            <li>Lecuga</li>
+            <li>Tomate</li>
+            <li>Queso Cheddar</li>
+            <li>Panceta</li>
+            <li>Huevo</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      Doble Carne + Panceta
+    </td>
+  </tr>
+  <tr>
+    <td>₲15.000</td>
+    <td>₲17.500</td>
+    <td>₲22.000</td>
+    <td>₲24.000</td>
+  </tr>
+  </table>
+<hr color="green">
+    <h3 align="center"> Lomitos Arabes</h3>
+    <br>
+    <table class="desc">
+    <tr>
+      <td class="verde">
+        <div class="caja">
+        <img src="../Imagenes/lomipollo.png"  alt="Lomi Pollo"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Pan Árabe Casero</li>
+              <li>Pollo</li>
+              <li>Repollo</li>
+              <li>Trocitos de Tomate</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Pollo
+      </td>
+      <td class="blanco">
+        <div class="caja">
+        <img src="../Imagenes/img8.jpeg" alt="Lomi Carne"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Pan Árabe Casero</li>
+              <li>Carne</li>
+              <li>Repollo</li>
+              <li>Trocitos de Tomate</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Carne
+      </td>
+      <td class="rojo">
+        <div class="caja">
+        <img src="../Imagenes/lomixto.png" alt="Lomi Mixto"><br>
+        <div class="ingre">
+          <div class="texto">
+            <ul>
+              <li>Pan Árabe Casero</li>
+              <li>Pollo</li>
+              <li>Carne</li>
+              <li>Repollo</li>
+              <li>Trocitos de Tomate</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        Mixto
+      </td>
+    </tr>
+    <tr>
+      <td>₲15.000</td>
+      <td>₲18.000</td>
+      <td>₲17.000</td>
+     
+    </tr>
+    </table>
+  
+    <hr color=>
+    <h3 align="center"> Tacos Mexicanos</h3>
+    <table class="desc">
+      <tr>
+        <td class="verde">
+          <div class="caja">
+          <img src="../Imagenes/tacospollo.jpg" alt="Taco Pollo"><br>
+          <div class="ingre">
+            <div class="texto">
+              <ul>
+                <li>Tortilla Casera</li>
+                <li>Pollo</li>
+                <li>Cebolla Salteada</li>
+                <li>Morron y Locote Verde Salteados</li>
+                <li>Picante Opcional</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          Pollo
+        </td>
+        <td class="blanco">
+          <div class="caja">
+          <img src="../Imagenes/img10.jpeg"  alt="Taco Carne"><br>
+          <div class="ingre">
+            <div class="texto">
+              <ul>
+                <li>Tortilla Casera</li>
+                <li>Carne</li>
+                <li>Cebolla Salteada</li>
+                <li>Morron y Locote Verde Salteados</li>
+                <li>Salsa Especial</li>
+                <li>Picante Opcional</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          Carne
+        </td>
+        <td class="rojo">
+          <div class="caja">
+          <img src="../Imagenes/mixto.png" alt="Taco Mixto"><br>
+          <div class="ingre">
+            <div class="texto">
+              <ul>
+                <li>Tortilla Casera</li>
+                <li>Pollo</li>
+                <li>Carne</li>
+                <li>Cebolla Salteada</li>
+                <li>Morron y Locote Verde Salteados</li>
+                <li>Salsa Especial</li>
+                <li>Picante Opcional</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          Mixto
+        </td>
+      
+      </tr>
+      <tr>
+        <td>₲16.000</td>
+        <td>₲19.000</td>
+        <td>₲18.000</td>
+       
+      </tr>
+      </table>
+    
+    <hr color=>
+    <h3 align="center"> Chivitos</h3>
+    <table class="desc">
+      <tr>
+        <td class="verde">
+          <div class="caja3">
+          <img src="../Imagenes/chivipollo.png"  "alt="Chivito Pollo"><br>
+          <div class="ingre3">
+            <div class="texto3">
+              <ul>
+                <li>Pan</li>
+                <li>Pollo</li>
+                <li>Lechuga</li>
+                <li>Tomate</li>
+                <li>Queso Cheddar</li>
+                <li>Morron</li>
+                <li>Panceta</li>
+                <li>Una pocion pequeña de papas</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          Pollo
+        </td>
+        <td class="blanco">
+          <div class="caja3">
+          <img src="../Imagenes/chivicarne.png"  alt="Chivito Carne"><br>
+          <div class="ingre3">
+            <div class="texto3">
+              <ul>
+                <li>Pan</li>
+                <li>Carne</li>
+                <li>Lechuga</li>
+                <li>Tomate</li>
+                <li>Queso Cheddar</li>
+                <li>Morron</li>
+                <li>Panceta</li>
+                <li>Una pocion pequeña de papas</li>
+              </ul>
+            </div>
+          </div>
+          </div>
+          Carne
+        </td>
+      
+      
+      </tr>
+      <tr>
+        <td>₲18.000</td>
+        <td>₲22.000</td>
+       
+       
+      </tr>
+      </table>
+    
+
+  </div>
+
+
+  <div id="menu-acompañamiento" class="menu">
+   <i><h2 align="center">Papas Fritas</h2></i>
+   <table class="desc">
+    <tr>
+      <td class="verde"><img src="../Imagenes/papaschicas.jpg"  alt="Papas chicas"><br>Chicas</td>
+      <td class="blanco"><img src="../Imagenes/img9.jpeg"  alt="Papas Medianas"><br>Medianas</td>
+      <td class="rojo"><img src="../Imagenes/papasgrandes.jpg"  alt="Papas Grandes"><br>Grandes</td>
+    
+    </tr>
+    <tr>
+      <td>₲6.000</td>
+      <td>₲10.000</td>
+      <td>₲15.000</td>
+     
+    </tr>
+    </table>
+  </div>
+  <footer>
+    <table class="pie">
+        <div>
+            <tr class="pie2">
+                <td><a href="https://maps.app.goo.gl/YJepYAKx9wnGWez16" target="_blank">Dirección: Avda. Americo Picco c/Yvapovo</a></td>
+            </tr>
+            <tr class="pie2">
+                <td><a href="https://wa.me/0985387919" target="_blank"><img src="../Imagenes/whatsapp.png" height="30" width="30">:0985-387-919 </a></td>
+            </tr>
+            <tr class="pie2">
+                <td><a href="https://m.facebook.com/people/Bendito-Manjar/100063689214588/"><img src="../Imagenes/face.png" height="30" width="30">:Bendito Manjar </a></td>
+            </tr>
+        </div>
+    </table>
+</footer>
+
+<script src="../Css/js_menu.js"></script>
+</body>
+</html>

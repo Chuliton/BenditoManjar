@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+body{
+    font-family: "Teko", sans-serif;
+    font-size: 2.3vw;
+    background-color: rgba(209, 44, 15, 0.932);
+}
+#historia{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+#historia h1{
+    color: rgb(228, 131, 41);
+    display: block;
+    padding-top: 3.5vw;
+    padding-bottom: 0;
+    text-align: justify;
+    
+}
+#historia p{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 6%;
+    padding: 25px;
+
+}
+#historia img{
+    width: 40%;
+    margin-right: 25px;
+    margin-top: 10%;
+    padding-left: 5%;
+    border-radius: 30px;
+    
+}
+#historia2{
+    display: flex;
+    justify-content: center;
+}
+#historia2 p{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 16%;
+    padding: 25px;
+}
+#historia2 img{
+    width: 40%;
+    margin-right:2%;
+    margin-top: 70px;
+    margin-bottom: 2%;
+    border-radius: 30px;
+      
+}

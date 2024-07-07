@@ -1,0 +1,114 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url('https://cdn.custom-cursor.com/db/cursor/32/Pepperoni_Pizza_Cursor.png') , default !important;
+}
+
+
+/* BARRA DE NAVEGACION */
+.MENUNAV{
+    font-family: "Teko", sans-serif !important;
+    font-size: 2.3vw !important;
+    height: auto;
+    background-color: rgba(163, 52, 12, 0.87);
+    width: 100%; /**Para que ocupe toda la pantalla**/
+    font-size: 2vw;
+}
+
+.MENUNAV ul{
+    list-style: none;
+}
+
+.MENUNAV a{
+    text-decoration: none;
+}
+/* ELEMENTOS EN HORIZONTAL */
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding-top:1vw ;
+	color: white;
+	text-decoration: none;
+}
+
+
+/* LISTA DESPLEGABLE */
+
+li .menu-vertical{
+    display: none;
+}
+li:hover > .menu-vertical{ 
+    display: block;
+} 
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+    z-index: 1000;
+}
+.menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+
+
+/* ITEMS DE LA LIST HORIZONTAL*/
+.itemNav{
+    width: 15vw;
+    padding-top: 0.5vw;
+    height: 10px;
+    text-align: center;
+}
+
+.itemNav a:hover{
+    background-color: rgb(250, 166, 88);
+}
+
+.imagenNav{
+    width: 50vw;
+    padding-left: 5%;
+}
+
+.logoimagen{
+    width: 7vw;
+}
+/*  PIE DE PAGINA */
+.pie{ 
+    background-color: coral;
+    width: 100%;
+    padding-top: 20px;
+}
+.pie .pie2 td {
+    color:aliceblue;
+    text-align: right;
+    font-size:1.5vw;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    line-height: 25px;
+    border: 0;
+    font-family: "Teko", sans-serif;
+    
+}
+.pie a{
+    text-decoration: none;
+    color: aliceblue;
+}
